@@ -63,12 +63,13 @@ max-width: 1000px;
 p{
     margin: 0;
 }
-.sec2{
+.sec1{
     padding-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 80px;
 }
 .box{
     height: 150px;
@@ -90,4 +91,28 @@ p{
     align-items: center;
     text-align: center;
     color: gray;
+}
+.sec2{
+    padding-top: 80px; 
+    padding-bottom: 80px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+.pc{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+.area{
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.thor{
+    align-self: end;
 }
