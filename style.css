@@ -59,6 +59,13 @@ max-width: 1000px;
 .signup{
     width: 100px;
     margin-top: 10px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 8px 10px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    border: transparent;
 }
 p{
     margin: 0;
@@ -115,4 +122,47 @@ p{
 }
 .thor{
     align-self: end;
+}
+.sec3{
+    display: flex;
+    
+}
+.blue{
+    margin: 80px auto;
+    background-color: #3882F6;
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+    padding: 40px;
+    border-radius: 10px;
+}
+.callH{
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 18px;
+}
+.call{
+    color: #F9FAF8;
+}
+.signupcall{
+    background-color: transparent;
+    color: #F9FAF8;
+    border-radius: 10px;
+    padding: 0 20px;
+    border: 2px solid #F9FAF8;
+    font-size: 14px;
+    font-weight: 800;
+}
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.hlink{
+    background-color: transparent;
+    border: transparent;
+    color: #E5E7EB;
+    font-size: 14px;
 }
